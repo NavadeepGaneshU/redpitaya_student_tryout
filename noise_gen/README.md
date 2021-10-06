@@ -4,9 +4,9 @@ Noise. It's everywhere and is inevitable, but it comes essential sometimes speci
 
 The output is random and peaks are over around 0 to 30kHz(in the spectrum waterfall chart). 
 
-![Circuit Diagram](img/circuit_dia.png){:height="36px" width="36px"}.
-![Plot - time domain](img/noise_td1.png){:height="36px" width="36px"}.
-![Plot - frequency domain](img/noise_fd1.png){:height="36px" width="36px"}.
-![Plot - frequency range](img/noise_fd2.png){:height="36px" width="36px"}.
+![Circuit Diagram](circuit_dia.png){:height="36px" width="36px"}.
+![Plot - time domain](noise_td1.png){:height="36px" width="36px"}.
+![Plot - frequency domain](noise_fd1.png){:height="36px" width="36px"}.
+![Plot - frequency range](noise_fd2.png){:height="36px" width="36px"}.
 
 Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to
