@@ -7,7 +7,7 @@ Components used:
 * 2 x BC547 NPN Transistor
 * 2 x 10uF electrolytic capacitor
 * 4.7K Resistor
-* 47K Resistor
+* 47K Resistor  
 and a Variable Bench Power Supply(0-15V, 3A) and RedPitaya STEMLab125-10.
 
 <img src="img/circuit_dia1.PNG" width="760" height="380">
@@ -26,8 +26,8 @@ Applications:
 * To generate random numbers by sampling the noise
 * To test filter circuits and responses of RF circuits.
 
-References:
-[1] https://www.element14.com/community/people/jc2048/blog/2021/05/22/the-art-of-noise
-[2] https://www.analog.com/en/analog-dialogue/raqs/raq-issue-154.html
+References:  
+[1] https://www.element14.com/community/people/jc2048/blog/2021/05/22/the-art-of-noise  
+[2] https://www.analog.com/en/analog-dialogue/raqs/raq-issue-154.html  
 
 #### Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to
