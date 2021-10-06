@@ -4,9 +4,9 @@ Noise. It's everywhere and is inevitable, but it comes essential sometimes speci
 
 The output is random and peaks are over around 0 to 30kHz(in the spectrum waterfall chart). 
 
-![Circuit Diagram](circuit_dia.png){:height="36px" width="36px"}.
-![Plot - time domain](noise_td1.png){:height="36px" width="36px"}.
-![Plot - frequency domain](noise_fd1.png){:height="36px" width="36px"}.
-![Plot - frequency range](noise_fd2.png){:height="36px" width="36px"}.
+![Circuit Diagram](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/blob/main/noise_gen/img/circuit_dia.jpg){:height="36px" width="36px"}.
+![Plot - time domain](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/blob/main/noise_gen/img/noise_td1.jpg){:height="36px" width="36px"}.
+![Plot - frequency domain](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/blob/main/noise_gen/img/noise_fd1.jpg){:height="36px" width="36px"}.
+![Plot - frequency range](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/blob/main/noise_gen/img/noise_fd2.jpg){:height="36px" width="36px"}.
 
-Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to
+## Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to
