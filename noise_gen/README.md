@@ -10,7 +10,7 @@ Components used:
 * 47K Resistor
 and a Variable Bench Power Supply(0-15V, 3A) and RedPitaya STEMLab125-10.
 
-<img src="img/circuit_dia1.png" width="760" height="380">
+<img src="img/circuit_dia1.PNG" width="760" height="380">
 <img src="img/circuit_rig.jpg" width="760" height="380">
 
 I have built the circuit with the most common BC547 NPN transistor, couple of resistors and boom! There is the generated noise. The power supply of 15V is given to the circuit and noise starts coming up after 12V. At the output, it starts at 0V, slowly rises, and when input is 12V, noise starts generating and the voltage level starts deteriorating down and random spread is seen. When turned off, the capacitor takes the output down to full negative and slowly comes up to 0 at full discharge. This was the first circuit which I worked on and tested with the new RedPitaya STEMLab125-10 Kit!
