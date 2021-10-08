@@ -1,6 +1,6 @@
 # Noise Generator Circuit
 
-Noise. It's everywhere and is inevitable, but it comes essential sometimes specifically and is fun to play with randomness. I tried to use a 2 transistor noise generator circuit which infact induces noise in one transistor with an open collector and the other one amplifies it to provide the noisy output.
+Noise. It's everywhere and is inevitable, but it comes essential sometimes specifically and is fun to play with randomness. I am using a 2 transistor noise generator circuit which infact induces noise in one transistor with an open collector and the other one amplifies it to provide the noisy output.
 The output is random and peaks are over around 0 to 30kHz(in the spectrum waterfall chart). 
 
 Components used:
@@ -8,7 +8,7 @@ Components used:
 * 2 x 10uF electrolytic capacitor
 * 4.7K Resistor
 * 47K Resistor  
-and a Variable Bench Power Supply(0-15V, 3A) and RedPitaya STEMLab125-10.
+A Variable Bench Power Supply(0-15V, 3A) and RedPitaya STEMLab125-10!
 
 <img src="img/circuit_dia1.PNG" width="760" height="380">
 <img src="img/circuit_rig.jpg" width="760" height="380">
@@ -23,11 +23,11 @@ The above frequency domain spectrum shows the random and even distribution of si
 <img src="img/noise_fd3.jpg" width="760" height="380">
 
 Applications: 
-* To generate random numbers by sampling the noise
-* To test filter circuits and responses of RF circuits.
+* To generate random numbers by sampling the noise.
+* To test filter circuits and responses of RF circuits.  
+
+#### Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to  
 
 References:  
 [1] https://www.element14.com/community/people/jc2048/blog/2021/05/22/the-art-of-noise  
 [2] https://www.analog.com/en/analog-dialogue/raqs/raq-issue-154.html  
-
-#### Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to
