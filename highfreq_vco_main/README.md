@@ -13,7 +13,7 @@ Quickly wired it up on a breadboard and here goes the test:
 
 <img src="img/breadboarded_vco.jpeg" width="680" height="380">
 I tried wiring up this circuit on a breadboard using all through hole parts exept the 3 x LM393 SMDs on a SOIC-8 to DIP adapter, with a supply of 24V DC and by adjusting input voltage +Vc between +250mV to +24V DC.  
-Quickly hooked up the probes to this circuit, pulled my browser and there comes a nice GUI asking what to choose from a suprising list of all expensive tool which I couldn't think of buying each. Choosing Oscilloscope mode of RedPitaya STEMLab125-10, this is what showed up:
+Quickly hooked up the probes to this circuit, pulled my browser and there comes a nice GUI asking what to choose from a suprising list of all expensive tool which I couldn't think of buying each. Choosing Oscilloscope mode of RedPitaya STEMLab125-10, this is what showed up:  
 
 <img src="img/plot_td1.jpg" width="760" height="380">
 <img src="img/plot_fd1.jpg" width="760" height="380">
@@ -22,7 +22,7 @@ There is a lot of noise and ripple in here though(no sharp peak in frequency dom
 The application example in LM393 datasheet did show that the it's a two-decade VCO with a 100kHz range and I definitely wanted to try cranking up still further. Having equipped with STEMLab125-10, what should stop the curiosity, right?
 
 I had heard about good old copper cladboard prototyping method which is quite more reliable when it comes to designing high frequency and RF circuits. So, I got a piece of copper clad board, sanded out all the tarnish and planned a layout to fit in the two of SOIC-8 LM393 chips. Because this was a thing which I had never tried, I looked up at some videos on tips and tricks for cardboard prototyping. 
-[This](https://www.analog.com/media/en/technical-documentation/technical-articles/ubm_edn_20110714%20wms%20trib.pdf) technical article by Analog Devices on Jim Williams is insightful. [Prototyping oscillator on clad board](https://www.youtube.com/watch?v=blalAktxFoI) by W2AEW, ![Techniques for Building Electronic Circuits](https://www.youtube.com/watch?v=vq968AFgPhg) by Leo's Bag of Tricks are inspirational to see and learn.
+[This](https://www.analog.com/media/en/technical-documentation/technical-articles/ubm_edn_20110714%20wms%20trib.pdf) technical article by Analog Devices on Jim Williams is insightful. [Prototyping oscillator on clad board](https://www.youtube.com/watch?v=blalAktxFoI) by W2AEW, [Techniques for Building Electronic Circuits](https://www.youtube.com/watch?v=vq968AFgPhg) by Leo's Bag of Tricks are inspirational to see and learn.
 
 <img src="img/drafting_vco.jpeg" width="380" height="320"> <img src="img/hf_vco_parts.jpeg" width="380" height="320">
 
@@ -34,15 +34,15 @@ Cutting the board and scratching the layout was a bit painful without the machin
 
 That's upto a point of 101kHz! And sneaking into frequency domain, there's this sharp peak at 100.26kHz and harmonics all after it. The signal is less noisy and strong at points of peak highlighted by a uniform bell curve in frequency domain spectrum.
 
-<img src="img/plot_fd2.jpg" width="760" height="380">
+<img src="img/plot_fd2.jpg" width="760" height="380">  
+
+Here is a short video on VCO functionality. I am sweeping the input voltage and thereby output square and triangular signal frequency sweeps, hitting 83kHz output signal frequency.
+#### Project Demo Video: https://www.youtube.com/watch?v=udZLteKwTNI  
 
 Applications:
 * Production of electronic music.  
 * Signal generators and references.  
 * Testing the circuit characteristics and responses.  
-
-Here is a short video on VCO functionality. I am sweeping the input voltage and thereby output square and triangular signal frequency sweeps, hitting 83kHz output signal frequency.
-### Project Demo Video: https://www.youtube.com/watch?v=udZLteKwTNI
 
 References:  
 [1] https://www.ti.com/lit/ds/symlink/lm393-n.pdf  

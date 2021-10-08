@@ -20,13 +20,13 @@ I have built the circuit with the most common BC547 NPN transistor, couple of re
 
 The above frequency domain spectrum shows the random and even distribution of signals over a span of 0kHz to 10kHz. The next one is zoomed out version of it which shows the strong signal distribution under 10kHz and further deteriorates. 
 
-<img src="img/noise_fd3.jpg" width="760" height="380">
+<img src="img/noise_fd3.jpg" width="760" height="380">  
+
+#### Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to  
 
 Applications: 
 * To generate random numbers by sampling the noise.
 * To test filter circuits and responses of RF circuits.  
-
-#### Project Demo Video: https://www.youtube.com/watch?v=qRXRiXFY2to  
 
 References:  
 [1] https://www.element14.com/community/people/jc2048/blog/2021/05/22/the-art-of-noise  
