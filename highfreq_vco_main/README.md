@@ -12,20 +12,19 @@ There is a lot of noise and ripples in here though, and I wonder if that has to 
 <img src="img/breadboard_vco.jpeg" width="760" height="380">
 <img src="img/plot_td1.jpg" width="760" height="380">
 <img src="img/plot_fd1.jpg" width="760" height="380">
-<img src="img/drafting_vco.jpeg" width="640" height="4800">
-<img src="img/hf_vco_parts.jpeg" width="640" height="480">
-<img src="img/clad_vco.jpeg" width="760" height="380">
+<img src="img/drafting_vco.jpeg" width="600" height="440"> <img src="img/hf_vco_parts.jpeg" width="600" height="440">
+<img src="img/clad_vco.jpeg" width="720" height="380">
 <img src="img/plot_td2.jpg" width="760" height="380">
 <img src="img/plot_fd2.jpg" width="760" height="380">
 
 Applications:
-* Production of electronic music.
-* Signal generators and references.
-* Testing the circuit characteristics and responses.
+* Production of electronic music.  
+* Signal generators and references.  
+* Testing the circuit characteristics and responses.  
 
 ### Project Demo Video: https://www.youtube.com/watch?v=udZLteKwTNI
 
-References:
-[1] https://www.ti.com/lit/ds/symlink/lm393-n.pdf
-[2] https://www.youtube.com/watch?v=EeYL6lJsNT8
-[3] http://www.till.com/articles/QuadTrapVCO/
+References:  
+[1] https://www.ti.com/lit/ds/symlink/lm393-n.pdf  
+[2] https://www.youtube.com/watch?v=EeYL6lJsNT8  
+[3] http://www.till.com/articles/QuadTrapVCO/  
