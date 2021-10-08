@@ -4,7 +4,7 @@ VCO. Voltage Controlled Oscillators are fairly popular circuits used as subsecti
 
 Here is an easy and simple high-frequency VCO design using 3 x LM393 comparators and passives which is capable of generating square, triangular wave signals with tunable frequency tange upto 100kHz depending on the control voltage +Vc fed into the circuit. 
 
-<img src="img/vco_circuit_block" width="760" height="380">
+<img src="img/vco_circuit_block.png" width="760" height="380">
 
 I tried wiring up this circuit on a breadboard using all through hole parts exept the 3 x LM393 SMDs on a SOIC-8 to DIP adapter, with a supply of 24V DC and by adjusting input voltage +Vc between +250mV to +24V DC.  
 LM393 SOIC-8 package comes as a dual comparator and so each block is 1/2 LM393. Here, Block2 is a square wave generator using the classic LM393 comparator as Schmitt trigger with non-inverting terminal feedback and inverting terminal gets Vc/2.
