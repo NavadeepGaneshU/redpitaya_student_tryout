@@ -1,7 +1,6 @@
 # DIY High Frequency Voltage Controlled Oscillator(VCO)
 
 VCO. Voltage Controlled Oscillators are fairly popular circuits used as subsections in PLLs, Music Synthesizers, Test and Measurements for generating known signals, etc.
-
 Here is an easy and simple high-frequency VCO design using 3 x LM393 comparators and passives which is capable of generating square, triangular wave signals with tunable frequency tange upto 100kHz depending on the control voltage +Vc fed into the circuit. 
 
 <img src="img/vco_circuit_block.png" width="760" height="380">
