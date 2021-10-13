@@ -1,0 +1,34 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.588406",
+   "Default View_TopLeft":"-561,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 580 -y 110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 580 -y 140 -defaultsOSRD
+preplace portBus ctrl -pg 1 -lvl 3 -x 580 -y 450 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 180 -y 140 -defaultsOSRD
+preplace inst jc2_0 -pg 1 -lvl 2 -x 460 -y 450 -defaultsOSRD
+preplace inst Clock_Divider_0 -pg 1 -lvl 1 -x 180 -y 310 -defaultsOSRD
+preplace inst left -pg 1 -lvl 1 -x 180 -y 420 -defaultsOSRD
+preplace inst right -pg 1 -lvl 1 -x 180 -y 520 -defaultsOSRD
+preplace inst stop -pg 1 -lvl 1 -x 180 -y 620 -defaultsOSRD
+preplace netloc jc2_0_q 1 2 1 N 450
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 20 10 360
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 20 350
+preplace netloc Clock_Divider_0_clock_out 1 1 1 350 310n
+preplace netloc processing_system7_0_GPIO_O 1 0 2 30 680 330
+preplace netloc left_Dout 1 1 1 N 420
+preplace netloc right_Dout 1 1 1 340 440n
+preplace netloc stop_Dout 1 1 1 360 460n
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 140 N
+preplace netloc processing_system7_0_DDR 1 1 2 NJ 120 560
+levelinfo -pg 1 0 180 460 580
+pagesize -pg 1 -db -bbox -sgen 0 0 690 690
+"
+}
+{
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}

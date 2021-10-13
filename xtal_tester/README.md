@@ -2,7 +2,7 @@
 
 XTAL. They are found in most of the RF and processing circuitry as an external component to provide clocking, time reference for synchronization of internal system operations. Easy to find, get and collect these. But,....testing them isn't that straight forward by connecting its terminals to a multimeter or an oscilloscope.
 
-<img src="img/xtlas_set.jpeg" width="380" height="600">
+<img src="img/xtals_set.jpeg" width="400" height="500">
 
 This is an interesting test circuit for crystals in 1MHz - 30MHz range with 2 NPN transistors, Zeners, some passives, and thought of testing a few crystals which I had(also killed some good ones for test :/ )
 
