@@ -8,7 +8,7 @@ Here's a project on implementing a soft core stepper controller on FPGA and runn
 So now, the main aim is to generate the stepper motor coil sequence to run it and this is digitally implemented using a [Johnson Counter](https://www.electronics-tutorials.ws/sequential/seq_6.html) written in Hardware Description Language(HDL), put into FPGA and mapping outputs to a PMOD to drive motor.   
 
 ```verilog
-//verilog code to implement a johnson counter with goLeft, goRight, stop being 3 parameters for operation of the counter.
+//verilog code to implement a johnson counter with goLeft, goRight, stop being 3 parameters for operation of the counter
 
 module jc2 (
     goLeft,
@@ -58,10 +58,7 @@ endmodule
 
 This verilog design is implemented on Xilinx ZYNQ7020 SoC, Vivado WebPack tool is used for implementation and the design is accessed using a custom overlay through Jupyter Notebook pytho programming utility. Through the overlay, input variables
 ```   
-    goLeft,
-	goRight,
-	stop,
-    clk
+goLeft, goRight, stop, clk
 ```
 can be configured on the fly thereby enabling seamless and field control of the motor speed, direction and state.
 
@@ -119,8 +116,12 @@ Here, a unipolar stepper motor [28BYJ-48](https://components101.com/motors/28byj
 
 Stepper motors usually require high current on startup/loading and the rated current isn't necessarily supplied by the FPGA PMOD pins. Hence, I am using a ULN2003 darlington array which can deliver maximum current of 500mA per driver or a motor coil here.  
 
-img src="img/ULN2003_internal.PNG" width="380" height="320"> img src="img/ULN2003_pinout.PNG" width="380" height="320">  
+<img src="img/ULN2003_internal.PNG" width="380" height="320"> <img src="img/ULN2003_pinout.PNG" width="380" height="320">  
 
+At this point, it wasn't starignt forward. I couldn't get the motor running at all! The implementation was working fine as seen in LED scroll demo, but after trying to sneak into the stepper motor control waveform using RedPitaya STEMLab125-10, I soon found it was with the coil waveform. The sequence was coming fine from PMOD A and on driving the motor, it was getting distorted/damped. I changed the voltage level to 5V taking it from a Arduino shield connector on PYNQ-Z2 and serviced the jumper wires as it was bringing in wiggling noise.  
+This is how a tool like STEMLab125-10 comes in handy :)
+
+#### Here's a demo video of the project: https://www.youtube.com/watch?v=GeD-rShZ3l4
 
 
 Applications:
