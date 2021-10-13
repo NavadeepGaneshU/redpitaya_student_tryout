@@ -86,7 +86,7 @@ Here are the steps to create, implement and run a design on FPGA shown pictorial
 
 7. Accessing PYNQ via Jupyter Notebook and importing .bit, .hwh, .tcl files generated already in Vivado  
 
-<img src="img/jupyter_import.png" width="700" height="380">
+<img src="img/jupyter_import.png" width="630" height="190">
 
 8. Using Python to import bitstream into design and run a customised overlay  
 
