@@ -4,7 +4,7 @@
  
 ### Projects:  
 - [x] [Stepper Motor Controller using PYNQ-Z2](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/pynq_stepper_ctrl)
-- [x] [High Frequency Voltage Controlled Oscillator](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/highfreq_vco_main)  
+- [x] [High Frequency Voltage Controlled Oscillator](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/highfreq_vco)  
 - [x] [Transistor Noise Generator](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/noise_gen)  
 - [x] [Crystal Oscillator Tester](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/xtal_tester)  
  
