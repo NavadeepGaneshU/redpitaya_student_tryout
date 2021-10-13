@@ -1,7 +1,7 @@
-#Stepper Motor Controller using PYNQ-Z2(with tuneable speed)
+# Stepper Motor Controller using PYNQ-Z2(with tuneable speed)
 
-Stepper Motors are by far the most commonly found part when it comes to motion control and its applications. From a toy piece to robotic arm and 3D Printer they're in. But there's a catch. Its not very straight forward to control or operate these stepper motors withough dedicated drivers as it specifically needs a coil activation sequence to rotate and control speed.  
-Here's a project on implementing a soft core stepper controller on FPGA and running a custom overlay on PYNQ to control the motor using Python programming. One of the benefit of this method would be to easily scale up the stepper controller design and implement multiple of them on digital logics.  
+Stepper motors are by far the most commonly found part when it comes to motion control and its applications. From a toy piece to robotic arm and 3D printer they're in. But there's a catch. Its not very straight forward to control or operate these stepper motors withough dedicated drivers as it specifically needs a coil activation sequence to rotate and control speed.  
+Here's a project on implementing a soft core stepper controller on FPGA and running a custom overlay on PYNQ to control the motor using Python programming. One of the benefit of this method would be to easily scale up the stepper controller design and implement multiple of them on digital logics. This is how a typical stepper motor controller would look like and its coil energizing sequence: 
 
 <img src="img/stepper_control.png" width="380" height="320"> <img src="img/coil_sequence.jpg" width="380" height="320">
 
@@ -12,7 +12,7 @@ So now, the main aim is to generate the stepper motor coil sequence to run it an
 
 module jc2 (
     goLeft,
-    goRight,
+	goRight,
     stop,
     clk,
     q	   );
@@ -60,8 +60,8 @@ This verilog design is implemented on Xilinx ZYNQ7020 SoC, Vivado WebPack tool i
 ```   
     goLeft,
 	goRight,
-    stop,
-    clk, 
+	stop,
+    clk
 ```
 can be configured on the fly thereby enabling seamless and field control of the motor speed, direction and state.
 
@@ -69,23 +69,23 @@ Here are the steps to create, implement and run a design on FPGA shown pictorial
 
 1. Creating a new project in Vivado Design Suite  
 
-<img src="img/vivado_project.PNG" width="700" height="380">
+<img src="img/vivado_project.png" width="700" height="380">
 
 2. Adding HDL design sources  
 
-<img src="img/vivado_verilog.PNG" width="700" height="380">
+<img src="img/vivado_verilog.png" width="700" height="380">
 
 3. Making a block design by adding HDL sources and synthesizing it   
 
-<img src="img/vivado_block.PNG" width="700" height="380">
+<img src="img/vivado_block.png" width="700" height="380">
 
 5. Running implementation and mapping IOs for the external peripherals(.xdc file generation)  
 
-<img src="img/vivado_implement.PNG" width="700" height="380">
+<img src="img/vivado_implement.png" width="700" height="380">
 
 6. Generating a bitstream and exporting block design  
 
-<img src="img/vivado_export.PNG" width="700" height="380">
+<img src="img/vivado_export.png" width="700" height="380">
 
 7. Accessing PYNQ via Jupyter Notebook and importing .bit, .hwh, .tcl files generated already in Vivado  
 
@@ -93,7 +93,7 @@ Here are the steps to create, implement and run a design on FPGA shown pictorial
 
 8. Using Python to import bitstream into design and run a customised overlay  
 
-<img src="img/jupyter_overlaypng" width="700" height="380">
+<img src="img/jupyter_overlay.png" width="700" height="380">
 
 Firstly, I mapped the output pins of Johnson Counter to onboard LEDs to test the circuit and here it goes:  
 
