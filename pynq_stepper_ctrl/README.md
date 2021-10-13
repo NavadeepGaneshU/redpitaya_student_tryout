@@ -2,6 +2,8 @@
 
 The [28BYJ-48](https://components101.com/motors/28byj-48-stepper-motor) unipolar motor has 5 wires one being Vcc from centre-tap of both the coils and others are A/A1 and B/B1 ends of each coil respectively.
 
+<img src="img/pynq_jc_action.gif" width="600" height="400">
+
 Applications:
 * Robotic control systems
 * To implement precise and fast motor speed tuning
