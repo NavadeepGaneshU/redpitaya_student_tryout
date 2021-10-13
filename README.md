@@ -10,8 +10,8 @@
  
 ### RedPitaya STEMLab125-10 caught on action in my other projects and testing:  
 
-- [x] [Trinamic PD42-1270 Stepper Motor | StealthChop Feature](https://youtu.be/qxGunMZJBtk?t=96)  
-- [x] [MAX77714 PMIC EVM | Voltage and Load Test](https://youtu.be/JADv-FF_pBQ?t=208)  
+- [x] [PD42-1270 Stepper Motor | StealthChop Feature | YouTube](https://youtu.be/qxGunMZJBtk?t=96)  
+- [x] [MAX77714 PMIC EVM | Voltage and Load Test | YouTube](https://youtu.be/JADv-FF_pBQ?t=208)  
 
 
 <img src="img/rp_kitty.jpg" width="640" height="480">  

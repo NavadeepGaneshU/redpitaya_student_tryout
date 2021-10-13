@@ -123,6 +123,7 @@ This is how a tool like STEMLab125-10 comes in handy :)
 
 #### Here's a demo video of the project: https://www.youtube.com/watch?v=GeD-rShZ3l4
 
+<img src="img/test_bench2.jpeg" width="380" height="320"> <img src="img/test_bench1.jpeg" width="380" height="320">
 
 Applications:
 * Robotic control systems
