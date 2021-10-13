@@ -3,12 +3,16 @@
 #### Repo of project submission for the [RedPitaya student tryout program](https://go.redpitaya.com/get-a-free-red-pitaya-for-a-student-project?utm_content=169098616&utm_medium=social&utm_source=linkedin&hss_channel=lcp-3236576) + my frenzy experiences working on several other projects with the [STEMLab125-10](https://redpitaya.com/stemlab-125-10/)!
  
 ### Projects:  
-- [x] [Stepper Motor Controller using PYNQ-Z2]()
+- [x] [Stepper Motor Controller using PYNQ-Z2](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/pynq_stepper_ctrl)
 - [x] [High Frequency Voltage Controlled Oscillator](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/highfreq_vco_main)  
 - [x] [Transistor Noise Generator](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/noise_gen)  
 - [x] [Crystal Oscillator Tester](https://github.com/NavadeepGaneshU/redpitaya_student_tryout/tree/main/xtal_tester)  
-- [ ] Negative Voltage Generator with IC555  
  
+### RedPitaya STEMLab125-10 caught in action in my other projects and testing:  
+
+- [x] [Trinamic PD42-1270 Stepper Motor | StealthChop Feature](https://youtu.be/qxGunMZJBtk?t=96)  
+- [x] [MAX77714 PMIC EVM | Voltage and Load Test](https://youtu.be/JADv-FF_pBQ?t=208)  
+
  <img src="img/rp_kitty.jpg" width="640" height="480">  
  
 #### Unboxing the RedPitaya STEMLab125-10: https://www.youtube.com/watch?v=aEXXjhqPiG8  
