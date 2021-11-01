@@ -1,4 +1,7 @@
 # RedPitaya Student Project
+<div style="text-align: center">
+    <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/NavadeepGaneshU/redpitaya_student_tryout" alt="Hits">
+</div>
 
 #### Repo of project submission for the [RedPitaya student tryout program](https://go.redpitaya.com/get-a-free-red-pitaya-for-a-student-project?utm_content=169098616&utm_medium=social&utm_source=linkedin&hss_channel=lcp-3236576) + my frenzy experiences working on several other projects with the [STEMLab125-10](https://redpitaya.com/stemlab-125-10/)!
  
