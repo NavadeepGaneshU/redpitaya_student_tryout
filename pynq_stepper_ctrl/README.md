@@ -126,9 +126,9 @@ This is how a tool like STEMLab125-10 comes in handy :)
 <img src="img/test_bench2.jpeg" width="380" height="320"> <img src="img/test_bench1.jpeg" width="380" height="320">
 
 Applications:
-* Robotic control systems
-* To implement precise and fast motor speed tuning
-* Implementing multiple stepper controllers on a single FPGA
+* Robotic control systems.
+* To implement precise and fast motor speed tuning.
+* Implementing multiple stepper controllers on a single FPGA.
 
 References:  
 [1] https://training.ti.com/ti-precision-labs-motor-drivers-stepper-motor-driver-basics  
